@@ -1,37 +1,37 @@
 # Investment Research Assistant
 
-A powerful CLI tool that helps you analyze investment opportunities using AI and real-time data.
+A CLI tool that helps you research investments using OpenAI's web search and AI analysis.
 
 ![Investment Research Assistant](https://img.shields.io/badge/Investment-Research-blue)
 
 ## Features
 
-- **Investment Research**: Find and analyze recent news articles about any investment topic
-- **Key Insights Extraction**: Automatically extract key insights, players, and related stock tickers
-- **Stock Information**: Look up current stock prices and basic information
-- **Brain Rot Mode**: Generate entertaining TikTok-style explanations of complex financial topics with optional video creation
+- **Investment News Search**: Uses OpenAI web search to find recent articles about investment topics
+- **Insight Extraction**: Automatically pulls out key insights, players, and related stock tickers
+- **Stock Price Lookup**: Check current prices without leaving the app
+- **Brain Rot Mode**: Creates TikTok-style explanations with Subway Surfers gameplay
 
 ## Requirements
 
 - Python 3.8+
 - OpenAI API key
-- Alpha Vantage API key (optional, for enhanced stock information)
+- Alpha Vantage API key (optional, for better stock info)
 - Eleven Labs API key (optional, for text-to-speech in Brain Rot mode)
 
-## Installation
+## Setup
 
-1. Clone this repository:
+1. Clone the repository:
    ```
    git clone https://github.com/yourusername/investment-research-assistant.git
    cd investment-research-assistant
    ```
 
-2. Install the required dependencies:
+2. Install dependencies:
    ```
    pip install -r requirements.txt
    ```
 
-3. Create a `.env` file in the project root with your API keys:
+3. Create a `.env` file with your API keys:
    ```
    OPENAI_API_KEY=your_openai_api_key
    ALPHA_VANTAGE_API_KEY=your_alpha_vantage_api_key
@@ -45,31 +45,31 @@ Run the application:
 python invest.py
 ```
 
-### Main Menu Options
+### Menu Options
 
-1. **Research an investment topic**: Enter any investment-related question to find recent news and analysis
-2. **Look up specific stock ticker**: Get current information about a specific stock
-3. **View saved research**: (Coming soon)
-4. **Brain Rot Mode**: Generate entertaining TikTok-style explanations of financial topics
+1. **Research Mode**: Enter any investment question to find and analyze recent news
+2. **Stock Lookup**: Look up information about a specific stock ticker
+3. **Saved Research**: Coming soon
+4. **Brain Rot Mode**: Get investment explanations in TikTok format
 
-### Brain Rot Video Creation
+### Brain Rot Mode
 
-For the full Brain Rot experience with video:
+This feature creates videos explaining investment concepts with Subway Surfers gameplay in the background.
 
-1. Place a Subway Surfers gameplay video named `subway_surfers.mp4` in the project directory
-2. (Optional) Place a Peter Griffin image named `peter.png` in the project directory
-3. Select Brain Rot Mode and follow the prompts
+All necessary media files are included in the repository:
+- Subway Surfers gameplay video
+- Peter Griffin image for overlay
+
+Just select Brain Rot Mode from the menu and follow the prompts.
 
 ## API Keys
 
-- **OpenAI API Key**: Required for all functionality. Get one at [OpenAI](https://platform.openai.com/)
-- **Alpha Vantage API Key**: Optional, for enhanced stock information. Get one at [Alpha Vantage](https://www.alphavantage.co/support/#api-key)
-- **Eleven Labs API Key**: Optional, for text-to-speech in Brain Rot mode. Get one at [Eleven Labs](https://elevenlabs.io/)
+- **OpenAI API Key**: Available at [OpenAI](https://platform.openai.com/)
+- **Alpha Vantage API Key**: Available at [Alpha Vantage](https://www.alphavantage.co/support/#api-key)
+- **Eleven Labs API Key**: Available at [Eleven Labs](https://elevenlabs.io/)
 
-## License
+## License & Disclaimer
 
-MIT
+MIT License
 
-## Disclaimer
-
-This tool is for educational and entertainment purposes only. Always do your own research before making investment decisions. The information provided by this tool should not be considered financial advice.
+**Disclaimer**: This tool is for educational and entertainment purposes only. The information provided should not be considered financial advice.
