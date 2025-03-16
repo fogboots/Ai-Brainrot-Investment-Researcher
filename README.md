@@ -60,6 +60,8 @@ All necessary media files are included in the repository:
 - Subway Surfers gameplay video
 - Peter Griffin image for overlay
 
+  ** YOU HAVE TO CREATE A CUSTOM PETER GRIFFIN VOICE ON THE ELEVENLABS DASHBOARD. [THERE ARE YOUTUBE VIDEOS ON HOW TO DO IT. ](https://www.youtube.com/watch?v=BG89ZrplAis&t=68s) **
+
 Just select Brain Rot Mode from the menu and follow the prompts.
 
 ## API Keys
